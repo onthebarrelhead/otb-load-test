@@ -26,7 +26,7 @@ interface OfferRequest {
 
 export class Session {
 	private http = Axios.create({
-		baseURL: 'https://api.sandbox.onthebarrelhead.com/api/v1'
+		baseURL: 'https://app-35712.on-aptible.com/api/v1'
 	})
 	private token?: string
 	constructor() {}
